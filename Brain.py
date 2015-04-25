@@ -3,6 +3,7 @@ import Neuron
 import Synapse
 import Cortex
 import random
+import pysqlite2
 
 
 class Brain:
@@ -32,7 +33,6 @@ class Brain:
 		self.Neocortex.initNeuralStructure()
 		self.LimbicCluster.initNeuralStructure()
 		self.Cerebellum.initNeuralStructure()
-		return
 
 	def loadBrainMap(self, brainMap):
 		return

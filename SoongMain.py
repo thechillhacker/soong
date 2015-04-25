@@ -14,6 +14,7 @@ class BrainSlider(wx.Panel):
 		self.value = curVal
 		self.minVal = minVal
 		self.maxVal = maxVal
+		
 
 class BrainDisplayCanvas(GLCanvas):
 	def __init__(self, parent):
