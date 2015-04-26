@@ -19,14 +19,14 @@ class Brain:
 		self.systemGABA = systemGABA if systemGABA != None else random.random()
 		self.systemEndorphins = systemEndorphins if systemEndorphins != None else random.random()
 
-		self.Neocortex = Cortex.Neocortex(brain=this) # higher cognative array - higher order pattern matching, analysis and social, primary memory store
-		self.LimbicCluster = Cortex.LimbicCluster(brain=this) # regulates system timing, electrical, and NT levels - regulates mood/emotion
-		self.Cerebellum = Cortex.Cerebellum(brain=this) # primary io matrix - will handle direct sensory input, and motor/data output
+		#self.Neocortex = Cortex.Neocortex(brain=this) # higher cognative array - higher order pattern matching, analysis and social, primary memory store
+		#self.LimbicCluster = Cortex.LimbicCluster(brain=this) # regulates system timing, electrical, and NT levels - regulates mood/emotion
+		#self.Cerebellum = Cortex.Cerebellum(brain=this) # primary io matrix - will handle direct sensory input, and motor/data output
 
-		if brainMap == None:
-			self.initNeuralStructure()
-		else:
-			loadBrainMap(brainMap=brainMap)
+		#if brainMap == None:
+		#	self.initNeuralStructure()
+		#else:
+		#	loadBrainMap(brainMap=brainMap)
 
 	# need methods to associate/export neural i/o pathways to/from the cortexes
 	def initNeuralStructure(self):
